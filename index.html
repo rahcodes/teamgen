@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <title>Random Team Generator</title>
+  </head>
+  <body>
+    <div class="main">
+      <h4>Random team generator</h4>
+      <form>
+        <label>Names</label><textarea rows="10" id="names" placeholder="Type in seperate lines" required></textarea>
+        <label>Distribution</label><input type="text" id="dist" placeholder="e.g. '4 4 5' or '3'" required>
+        <input type="reset" id="reset">
+        <input type="submit" id="submit" value="Generate">
+      </form>
+      <div class="teams-container hidden"></div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
