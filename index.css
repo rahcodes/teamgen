@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
+    background-color: #f7f7f7;
+}
+
+textarea {
+    resize: none;
+}
+
+.main {
+    margin-top: 20px;
+    width: 380px;
+}
+
+.main h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main form input[type="text"],
+.main form textarea {
+    border-radius: 5px;
+    padding: 8px;
+    border: solid 1px #ccc;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main form input[type="text"]:focus,
+.main form textarea:focus {
+    border: solid 2px #7b1fa2;
+}
+
+.main form input[type="text"]::placeholder,
+.main form textarea::placeholder {
+    color: #bbb;
+}
+
+.main form label {
+    margin-left: 3px;
+    font-size: 15px;
+}
+
+.main form input[type="submit"],
+.main form input[type="reset"] {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #fff;
+}
+
+.main form input[type="submit"] {
+    background-color: #7b1fa2;
+}
+
+.main form input[type="reset"] {
+    background-color: #c3075b;
+}
+
+.teams-container {
+    background-color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    border: solid 1px #ccc;
+    overflow: hidden;
+}
+
+.team h3 {
+    background-color: #353a40;
+    color: white;
+    padding: 5px;
+}
+
+.team p {
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+.hidden {
+    display: none;
+}
