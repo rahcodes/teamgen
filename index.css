@@ -90,3 +90,9 @@ textarea {
 .hidden {
     display: none;
 }
+
+@media only screen and (max-width: 380px) {
+    .main {
+        width: 350px;
+    }
+}
