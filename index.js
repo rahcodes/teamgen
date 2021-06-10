@@ -95,11 +95,11 @@ form["submit"].onclick = (event) => {
         div.classList.add("team");
 
         for (let i = 0; i < t.length; i++) {
-            p.innerHTML += `${i+1}.${t[i]}     `;
+            p.innerHTML += `<strong>${i+1}.</strong>${t[i]}     `;
         }
 
         h3.innerText = `Team ${tc}`;
-        p.innerText = p.innerText.trim();
+        p.innerHTML = p.innerHTML.trim();
 
         div.appendChild(h3);
         div.appendChild(p);
