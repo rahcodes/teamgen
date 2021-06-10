@@ -28,9 +28,9 @@ form["submit"].onclick = (event) => {
         }
     }
 
-    // checking inputs
-    if (names.length == 0 || dist.length == 0) {
-        alert("Error: Empty field(s)");
+    // checking names input
+    if (names.length == 0) {
+        alert("Error: Empty 'Names' field");
         return;
     }
 
